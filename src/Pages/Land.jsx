@@ -80,7 +80,7 @@ const Land = () => {
   // Utility function for price formatting
   const formatPrice = (price) => {
     return price
-      ? `LKR ${Number(price).toLocaleString()}`
+      ? `LKR ${Number(price).toLocaleString()}.00`
       : "Price not available";
   };
 
